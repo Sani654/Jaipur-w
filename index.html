@@ -2,215 +2,176 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 
-<title>VIP MARATHI TRADER</title>
+<title>Trade With Titans</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+<!-- Meta Pixel -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);
+t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init','1612315957606148');
+fbq('track','PageView');
+</script>
 
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
+*{box-sizing:border-box}
 
 body{
-font-family:Arial,sans-serif;
-background:#f5f7fb;
-color:#151525;
+ margin:0;
+ min-height:100vh;
+ background:#f5f7f6;
+ font-family:Poppins,sans-serif;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ padding:12px;
+ color:#17201c;
 }
 
-.container{
-max-width:420px;
-margin:auto;
-padding:18px 12px;
-text-align:center;
-}
-
-.online{
-display:inline-block;
-background:#e8f5e9;
-color:#218739;
-padding:6px 13px;
-border-radius:20px;
-font-size:11px;
-font-weight:bold;
+.card{
+ width:100%;
+ max-width:330px;
+ background:#fff;
+ text-align:center;
+ padding:18px 16px;
+ border:1px solid #dce7e1;
+ border-radius:20px;
+ box-shadow:0 8px 25px rgba(0,0,0,.08);
 }
 
 .profile{
-width:88px;
-height:88px;
-margin:15px auto 8px;
-border-radius:50%;
-overflow:hidden;
-border:3px solid #fff;
-box-shadow:0 3px 12px #ddd;
-}
-
-.profile img{
-width:100%;
-height:100%;
-object-fit:cover;
+ width:82px;
+ height:82px;
+ border-radius:50%;
+ object-fit:cover;
+ border:3px solid #1f9d61;
 }
 
 h1{
-font-size:20px;
-font-weight:800;
-margin:6px 0;
+ font-size:21px;
+ margin:9px 0 2px;
+ font-weight:700;
 }
 
-.tag{
-font-size:11px;
-font-weight:bold;
-color:#0066ff;
+.sub{
+ color:#6d7772;
+ font-size:11px;
+ margin-bottom:14px;
 }
 
-.rating{
-margin:8px;
-color:#ff9800;
-font-size:15px;
+.list{
+ text-align:left;
 }
 
-.rating small{
-color:#777;
-font-size:10px;
+.item{
+ font-size:11px;
+ padding:8px 3px;
+ border-bottom:1px solid #edf1ee;
+ color:#4d5752;
+}
+
+.item:last-child{
+ border-bottom:0;
 }
 
 .btn{
-display:block;
-margin:12px auto;
-padding:15px 8px;
-width:100%;
-background:linear-gradient(135deg,#0066ff,#004dcc);
-color:white;
-border-radius:10px;
-text-decoration:none;
-font-size:13px;
-font-weight:bold;
-box-shadow:0 4px 12px #c5d7ff;
+ display:block;
+ margin-top:15px;
+ padding:11px;
+ border-radius:30px;
+ text-decoration:none;
+ color:#fff;
+ font-size:13px;
+ font-weight:700;
+ background:#168a52;
+ box-shadow:0 5px 14px rgba(22,138,82,.22);
 }
 
-.info{
-background:white;
-padding:12px;
-border-radius:10px;
-margin:12px 0;
-font-size:12px;
-line-height:1.6;
-box-shadow:0 2px 7px #eee;
+.quote{
+ font-size:10px;
+ color:#777;
+ line-height:1.5;
+ margin:13px 0;
 }
 
-.info b{
-color:#0066ff;
+.ad{
+ font-size:8px;
+ color:#999;
+ border-top:1px solid #edf1ee;
+ padding-top:9px;
 }
 
-.alert{
-background:#fff3e0;
-color:#e65100;
-padding:8px;
-border-radius:20px;
-font-size:11px;
-font-weight:bold;
-margin:12px 0;
+.ad a{
+ color:#168a52;
+ text-decoration:none;
+ font-weight:700;
 }
 
-.feature{
-background:white;
-padding:10px;
-margin:6px 0;
-border-radius:9px;
-font-size:11px;
-text-align:left;
-box-shadow:0 2px 6px #eee;
-}
-
-.disclaimer{
-font-size:8px;
-color:#999;
-line-height:1.4;
-margin-top:13px;
-}
-
-.ads{
-margin-top:15px;
-padding-top:10px;
-border-top:1px solid #ddd;
-font-size:10px;
-color:#777;
-}
-
-.ads a{
-color:#0066ff;
-font-weight:bold;
-text-decoration:none;
+.note{
+ font-size:7px;
+ color:#aaa;
+ margin-top:7px;
 }
 </style>
 </head>
 
 <body>
 
-<div class="container">
+<div class="card">
 
-<div class="online">🟢 5,947 Traders Online</div>
+<img class="profile"
+src="https://i.ibb.co/WpB2b0XL/Kf9j-Ze-FUbyiq-Lx-QW5u-An-S5q96-RG-3-G7-EGLexmlf-Fm-PGk-Pfq7-QRLsyk6-An-Tkjj7-DR9j-Ge-M-VL-e-Rpv-FVZb4im-N.jpg"
+alt="Trade With Titans">
 
-<div class="profile">
-<img src="https://i.ibb.co/C3MWPLNJ/nz-GBLTyzm38-XC3h-VEwn5-Ix-Vdx6-VR9wc1-T3e-ORuv-U5lw-A1i8-RMAj-Fd-Fkr-Vy1-X9t-MGy-Yyd-Bo-VHOey-Ik9-F-j-GAMj.jpg">
+<h1>TRADE WITH TITANS</h1>
+
+<div class="sub">📚 Learning Community</div>
+
+<div class="list">
+<div class="item">📘 Learning & Educational Sessions</div>
+<div class="item">📊 Market Concepts & Awareness</div>
+<div class="item">📈 Chart Reading Concepts</div>
+<div class="item">💻 Educational Discussions</div>
 </div>
 
-<h1>VIP MARATHI TRADER</h1>
-
-<div class="tag">🏆 Stock Market Learning Community</div>
-
-<div class="rating">
-★★★★★ <small>4.9/5</small>
-</div>
-
-<a class="btn" href="https://t.me/+WSCccCJLrkVmMzk1">
-JOIN FREE TELEGRAM CHANNEL →
+<a class="btn" id="join"
+href="https://t.me/+UnlUvjgPgP80OTA9"
+target="_blank">
+✈️ JOIN FREE TELEGRAM
 </a>
 
-<div class="info">
-<b>FREE DAILY MARKET UPDATES</b><br>
-NIFTY • BANKNIFTY • SENSEX<br>
-Educational Analysis & Market Levels
+<div class="quote">
+अच्छी नियत और सच्ची मेहनत से सफलता की राह आसान होती है।
 </div>
 
-<div class="alert">🔥 Limited FREE Access Available</div>
-
-<div class="feature">📊 Daily Market Analysis</div>
-<div class="feature">📈 NIFTY & BANKNIFTY Levels</div>
-<div class="feature">🎓 Educational Trading Content</div>
-
-<a class="btn" href="https://t.me/+WSCccCJLrkVmMzk1">
-JOIN FREE TELEGRAM CHANNEL →
+<div class="ad">
+Advertised By
+<a href="https://telegram.me/+3XoqJNLxYHswNTc1" target="_blank">
+AD BUILD AGENCY
 </a>
-
-<div class="disclaimer">
-<strong>Disclaimer:</strong><br>
-For educational purposes only. Trading involves market risk.
 </div>
 
-<div class="ads">
-🔥 Powered by
-<a href="https://t.me/+rueXSRWaGdE4YmY1">ADCRAFTAGENCY</a>
+<div class="note">
+Educational content only • No profit guarantee
 </div>
 
 </div>
 
-<!-- Meta Pixel -->
 <script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-
-fbq('init','27962606230101094');
-fbq('track','PageView');
+document.getElementById("join").onclick=function(){
+ if(typeof fbq==="function"){
+   fbq("track","Lead",{content_name:"Telegram Join"});
+ }
+};
 </script>
-
-<noscript>
-<img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=27962606230101094&ev=PageView&noscript=1">
-</noscript>
 
 </body>
 </html>
